@@ -1,94 +1,210 @@
-# QuantDinger
+<div align="center">
 
-**Open-source AI-native quant infrastructure for crypto, stocks, forex.**
+# Hi, I'm Henry 👋  
+### Founder of QuantDinger
 
-Market data → Backtest → Execution. One system.
+**Building open-source AI-native trading infrastructure for crypto, stocks, forex, and global quant teams.**
 
-[https://www.quantdinger.com](https://www.quantdinger.com) | [Live Demo](https://ai.quantdinger.com)
+From market research to executable trading strategies — all in one workflow.
 
----
+[![QuantDinger](https://img.shields.io/badge/QuantDinger-AI%20Quant%20Platform-blueviolet)](https://github.com/brokermr810/QuantDinger)
+[![Website](https://img.shields.io/badge/Website-quantdinger.com-blue)](https://www.quantdinger.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-ai.quantdinger.com-green)](https://ai.quantdinger.com)
+[![License](https://img.shields.io/badge/License-Apache--2.0-brightgreen)](https://github.com/brokermr810/QuantDinger)
 
-## Why
-
-Most quant tools are disconnected. You write indicators in one place, backtest in another, then hack together a live execution script that falls over at 2am.
-
-QuantDinger connects the loop. That’s it.
-
-- AI-assisted research (agents, not hype)
-- Strategy dev in Python
-- Backtest with realistic slippage/fees
-- Live trading via CCXT (100+ exchanges)
-- Docker deploy, self-hosted
-
-No SaaS lock-in. No black boxes.
+</div>
 
 ---
 
-## What it does
+## 🚀 About Me
 
+I'm the founder of **QuantDinger**, an open-source AI-native quantitative trading platform.
+
+I focus on building trading systems that connect the full workflow:
+
+```text
+Market Data → AI Research → Strategy Logic → Backtesting → Risk Control → Live Execution
+````
+
+My work is centered around:
+
+* AI-assisted market research
+* Quantitative strategy development
+* Backtesting and strategy optimization
+* Multi-agent trading analysis
+* Live trading infrastructure
+* Private deployment and open-source financial tools
+
+---
+
+## ⭐ Featured Project: QuantDinger
+
+**QuantDinger** is an open-source AI-native quant platform designed for traders, developers, and quant teams.
+
+It supports crypto, stocks, forex, and multi-market research workflows.
+
+### What QuantDinger does
+
+* AI-assisted market analysis
+* Indicator and strategy development
+* Professional backtesting
+* Strategy optimization
+* Multi-agent research
+* Live trading execution
+* Multi-exchange connectivity
+* Alerts via email, webhook, Telegram, Discord, and more
+* Docker-based private deployment
+* Full workflow from research to execution
+
+> QuantDinger is built to turn trading ideas, market signals, and AI research into executable strategies.
+
+---
+
+## 🔥 Core Philosophy
+
+Most trading tools only solve one part of the problem.
+
+Some tools help you write indicators.
+Some help you backtest.
+Some help you execute trades.
+Some help you analyze markets.
+
+**QuantDinger connects the whole loop.**
+
+```text
+Idea → Indicator → Strategy → Backtest → Optimize → Execute → Monitor
 ```
-Idea → Indicator → Backtest → Optimize → Execute → Monitor
+
+This is the workflow I believe the next generation of AI-native trading systems should provide.
+
+---
+
+## 🧠 What I'm Building
+
+I'm building QuantDinger as an open trading infrastructure layer for:
+
+* Individual traders
+* Quant developers
+* AI trading researchers
+* Crypto traders
+* Stock and forex strategy builders
+* Private trading teams
+* Developers who want full control over their trading system
+
+The long-term goal is to make professional-grade quant infrastructure more open, accessible, and extensible.
+
+---
+
+## 🛠 Tech Stack
+
+I work mainly with:
+
+```text
+Python · Vue · Docker · PostgreSQL · Flask · Lightweight Charts · CCXT
+AI Agents · Backtesting · Quant Research · Live Trading · Trading Infrastructure
 ```
 
-Everything from research to live trades, in one codebase.
+---
 
-- Multi-market: crypto, stocks, forex
-- Multi-agent market analysis
-- Strategy optimization (hyperparams)
-- Alerts: email, webhook, Telegram, Discord
-- PostgreSQL + Redis + Vue frontend
+## 📌 Main Repositories
+
+### QuantDinger
+
+Open-source AI-native quant platform for market research, strategy development, backtesting, and live execution.
+
+[GitHub Repo](https://github.com/brokermr810/QuantDinger)
+[Website](https://www.quantdinger.com)
+[Live Demo](https://ai.quantdinger.com)
 
 ---
 
-## Tech stack
+### QuantDinger-Vue
 
-- Python (Flask) for backend
-- Vue 3 for frontend
-- CCXT for exchange connectivity
-- Docker for deployment
-- Lightweight Charts for UI
+Frontend source code for QuantDinger's AI-native quant research, strategy, trading, and operations workspace.
 
-Nothing fancy. Just works.
+[GitHub Repo](https://github.com/brokermr810/QuantDinger-Vue)
 
 ---
 
-## Repositories
+### QuantDinger-Mobile
 
-- [QuantDinger](https://github.com/brokermr810/QuantDinger) – core backend & engine
-- [QuantDinger-Vue](https://github.com/brokermr810/QuantDinger-Vue) – frontend
-- [QuantDinger-Mobile](https://github.com/brokermr810/QuantDinger-Mobile) – mobile app
+Mobile frontend for QuantDinger.
 
----
-
-## Get started
-
-```bash
-git clone https://github.com/brokermr810/QuantDinger.git
-cd QuantDinger
-docker-compose up -d
-```
-
-Then open `http://localhost:3000`.
-
-Or try the live demo: [ai.quantdinger.com](https://ai.quantdinger.com)
+[GitHub Repo](https://github.com/brokermr810/QuantDinger-Mobile)
 
 ---
 
-## Philosophy
+## 🌍 QuantDinger Links
 
-- Open source > closed SaaS
-- Own your infrastructure
-- Inspect, modify, break, fix
-- No telemetry, no tracking, no vendor lock
-
-If you trade seriously, you should run your own stack.
+* Website: [https://www.quantdinger.com](https://www.quantdinger.com)
+* AI Workspace: [https://ai.quantdinger.com](https://ai.quantdinger.com)
+* GitHub: [https://github.com/brokermr810/QuantDinger](https://github.com/brokermr810/QuantDinger)
 
 ---
 
-## License
+## 📈 Why QuantDinger Exists
 
-Apache 2.0
+Quant trading should not be locked behind closed SaaS platforms.
+
+Developers and traders should be able to:
+
+* Own their trading infrastructure
+* Inspect and modify the system
+* Run strategies privately
+* Connect their own data and brokers
+* Build custom research workflows
+* Move from idea to execution without switching five different tools
+
+That is why QuantDinger is open-source.
 
 ---
 
-**Research → Backtest → Execute.**
+## 🧩 Current Focus
+
+I'm currently focused on improving:
+
+* AI strategy generation
+* Multi-agent market analysis
+* Strategy backtesting workflow
+* Live execution reliability
+* Multi-market support
+* SaaS and private deployment experience
+* Developer-friendly strategy APIs
+* Trading system automation
+
+---
+
+## 🤝 Open Source
+
+I believe open-source is the fastest way to build serious infrastructure.
+
+Open-source gives developers:
+
+* Transparency
+* Flexibility
+* Trust
+* Community feedback
+* Faster iteration
+* Real-world validation
+
+If you're interested in AI trading systems, quant research, or open financial infrastructure, feel free to follow the project.
+
+---
+
+## ⭐ Support QuantDinger
+
+If you like open-source AI quant trading infrastructure, please consider giving QuantDinger a star.
+
+[Star QuantDinger on GitHub](https://github.com/brokermr810/QuantDinger)
+
+Every star helps the project reach more developers, traders, and builders.
+
+---
+
+<div align="center">
+
+### Building the open-source AI quant system I wish existed.
+
+**Research → Backtest → Execute**
+
+</div>
